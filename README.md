@@ -18,6 +18,11 @@
 - 用 YOLOv8n-Pose 模型將動物的bbox及動物的眼睛標出
 - 用 YOLO11n-Seg 模型將動物bbox中的輪廓找出
 - 量測每隻動物的雙眼距離以及任意兩隻動物的右眼距離
+### 0. 前置作業
+不論是inference還是training，都需要用到kaggle的開源資料集，為了能下載kaggle資料集，請務必先到個人的kaggle帳號中取得金鑰(kaggle.json)，將其載下放到專案目錄中即可
+* Get your own kaggle.json from Kaggle Settings.
+  * Setting --> API Tokens --> Legacy API Credentials --> Create Legacy API Key
+* Doenload kaggle.json.
 ### 1. 安裝環境
 ```bash
 pip install -r requirements.txt
