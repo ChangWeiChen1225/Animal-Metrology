@@ -22,7 +22,7 @@
 不論是inference還是training，都需要用到kaggle的開源資料集，為了能下載kaggle資料集，請務必先到個人的kaggle帳號中取得金鑰(kaggle.json)，將其載下放到專案目錄中即可
 * Get your own kaggle.json from Kaggle Settings.
   * Setting --> API Tokens --> Legacy API Credentials --> Create Legacy API Key
-* Doenload kaggle.json.
+* Download kaggle.json.
 ### 1. 安裝環境
 ```bash
 pip install -r requirements.txt
