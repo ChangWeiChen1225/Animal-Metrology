@@ -1,0 +1,23 @@
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境變數與虛擬環境
+.env
+.venv/
+env/
+venv/
+
+# 資料與結果 (避免將數百張圖片傳上 GitHub)
+raw_images/
+results/
+data/
+
+# 模型權重 (建議透過 LFS 或連結提供，不直接 push 幾百 MB 的檔)
+weights/*.pt
+runs/
+
+# 作業系統垃圾檔
+.DS_Store
+Thumbs.db
